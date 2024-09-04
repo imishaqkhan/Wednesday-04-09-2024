@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height:100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    margin-left: 6%;
+    margin-top: 30px;
+}
+.logo img{
+    width: 80px;
+}
+.list {
+    margin-right:8%;
+    margin-top: 30px;
+}
+.list a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.list a::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color:#fff;
+    display: block;
+    margin: auto;
+    
+}
+.list a:hover::after{
+    width: 100%;
+}
+.header{
+    top:30%;
+    margin-left: 6%;
+    position: absolute;
+    color: #fff;
+    width: 90%;
+    
+}
+.header h1{
+    font-size:4.2rem;
+    margin-bottom:10px;
+}
+.header p{
+    font-size: 20px;
+}
+.header button{
+padding: 10px;
+margin-top: 30px;
+ border-radius: 15px;
+  background-color:  rgb(0,255,173);
+  width:140px;
+  border: none;
+}
+.header button a{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+    font-size: 15px;
+}
+button a:hover{
+    color: #fff;
+}
+                    /*  Protection section */
+.protect{
+    width: 80%;
+    min-height: 50vh;
+    box-sizing: border-box;
+    margin:10% auto;
+
+}                 
+.protect h1{
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}   
+.anti-main{
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+}
+.anti-box{
+    text-align: center;
+   flex-basis:27%;
+}
+.anti-box img{
+    width:150px;
+   margin-bottom: 20px;
+}
+.anti-box h2{
+    margin-bottom: 10px;
+}
+.anti-box p{
+font-size: 15px;
+}
+
+                            /* take look section */
+.take-look{
+    margin-top: 100px;
+    width: 100%;
+    height:50vh ;
+   position: relative;
+   background-image: linear-gradient(to bottom right,rgb(255, 255, 255) 50%,rgb(0,255,173)50%);  
+}  
+.take-look .look{
+    width: 80%;
+    margin: auto ;
+    padding-top:20px ;
+}
+.look h1{
+    font-size: 2.8rem;
+}
+.look p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.look button{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    width: 140px;
+}
+.look button:hover{
+    box-shadow:4px 3px 5px #fff;
+}
+.laptop{
+    position: absolute;
+    top: 0px;
+    right: 120px;
+}
+.laptop img{
+    width: 400px;
+}
+            /* safe and reliable */
+.safe{
+    width: 100%;
+    height: 70vh;
+    background-color:rgb(0,255,173) ;
+}            
+.safe .safe-item{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 40%;
+    padding-top:100px ;
+    align-items:center ;
+    height: 30vh;
+}
+.safe-item .image img{
+    width: 300px;
+}
+.safe-item .text-box{
+margin-left: 30px;
+
+}
+.text-box h2{
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+.text-box p{
+    font-size: 20px;
+}
+.text-box button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    width: 140px;
+}
+.text-box button a{
+    text-decoration: none;
+    color: #fff;
+}
+                        /* Pricing section */
+.pricing{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 40px;
+}
+.pricing h1{
+ text-align: center;
+ padding: 20px;
+ font-size: 2.8rem;
+}
+.pricing-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   flex-basis: 30%;
+   margin-top: 30px;
+}
+.content{
+     padding-top:30px ;
+     text-align: center;
+}
+.content h2,h3,ul,li{
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+.content button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    border: 2px solid black;
+    width: 90px;
+   background-color: #fff;
+}
+.content button a{
+     text-decoration: none;
+      color: black;
+      font-weight: 800;
+}
+.content1{
+    background-color: rgb(25,36,64);
+    color: #fff;
+    text-align: center;
+   padding: 30px;
+}
+.content1 button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color:#00ffad;
+    width: 90px;
+}
+.content1 button a{
+    text-decoration: none;
+     color:black;
+     font-weight: 800;
+     
+}
+.content1 h2,h3,ul,li{
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+.content h3 span{
+    font-weight: bold;
+    font-size: 60px;
+}
+.content1 h3 span{
+    font-weight: bold;
+    font-size: 60px;
+}
