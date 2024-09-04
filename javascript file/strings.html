@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string</title>
+</head>
+<body>
+    <h1>Javascript String</h1>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+      let name = "ishaqkhan";
+      
+        for(let i=0; i<name.length; i++){
+              document.getElementById("p3").innerHTML = document.getElementById("p3").innerHTML + name[i];
+        }
+      let str1 = "hello";
+      let str2 = "world";
+      let str3 = str1 + str2;
+      let str4 = str1.concat(str2);
+      document.getElementById("p1") .innerHTML = str3;
+      document.getElementById("p2") .innerHTML = str4;
+    </script>
+</body>
+</html>
