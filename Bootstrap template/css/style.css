@@ -79,6 +79,9 @@ margin-top: 30px;
 button a:hover{
     color: #fff;
 }
+@media screen and (max-width:700px){
+    
+}
                     /*  Protection section */
 .protect{
     width: 80%;
@@ -151,6 +154,15 @@ font-size: 15px;
 }
 .laptop img{
     width: 400px;
+}
+@media screen and (max-width:920px) {
+    .laptop img{
+        width: 300px;
+    }
+    .laptop{
+        top: 40px;
+        right: 60px;
+}
 }
             /* safe and reliable */
 .safe{
