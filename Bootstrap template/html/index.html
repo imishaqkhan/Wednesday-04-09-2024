@@ -50,16 +50,18 @@
     </section>
                 <!--Look section-->
     <section class="take-look">
-        <div class="look">
-        <h1>Take a look inside</h1>
-        <p>Take a look inside to explore the inner workings and <br> uncover unexpected insights and details.</p>
-        <button>Learn more</button>
+        <div class="look-flex">
+            <div class="look">
+                <h1>Take a look inside</h1>
+                <p>Take a look inside to explore the inner workings and <br> uncover unexpected insights and details.</p>
+                <button><a href="">Learn more</a></button>
+            </div>
+            <div class="laptop">
+                <img src="../img/laptop.png" alt="">
+            </div>
         </div>
-        <div class="laptop">
-            <img src="../img/laptop.png" alt="">
-        </div>
-
     </section>       
+
     <section class="safe">
         <div class="safe-item">
            <div class="image">
@@ -136,6 +138,7 @@
      </section>  
                                      <!--Contact info-->
      <section class="contact">
+        <div class="contact-detail">
         <div class="contact-info">
             <h1>Contact Us</h1>
             <p>Contact us for support, inquiries, or more information about our services.</p>
@@ -143,28 +146,15 @@
             <p>Phone : +923459367243</p>
             <p>Address: Pak kaya, swabi, KPK </p>
         </div>
-        <div class="input-box">
-            <form action="">
-                <div class="flexbox">
-                     <div class="name">
-                    <label for="">Your name</label>
-                <input type="text" placeholder="Enter your name" required>
-                </div>
-                <div class="email">
-                    <label for="">Your Email</label>
-                    <input type="email" placeholder="Enter your email">
-                </div>
-                </div>
-               
-                <div class="massege">
-                    <label for="">Massege</label>
-                    <textarea name="massege" id="" title="Your massege"></textarea>
-                </div>
-                <div class="btn">
-                    <a href="">Submit</a>
-                </div>
+        <div class="contact-form">
+            <form action="" class="contact-box">
+                    <input type="text"  class="text-box" placeholder="Enter your name" required>
+                    <input type="email"  class="text-box" placeholder="Enter your email" required>
+                    <textarea name="massege" rows="5" placeholder="Your massege" required></textarea>
+                    <input type="submit" class="send-btn" >
             </form>
         </div>
+      </div>
      </section> 
      <section class="footer">
         <p>Copyright : Ishaq khan 2024</p>
